@@ -23,3 +23,13 @@ pip install .
 
 ## Usage
 Please check `examples` folder to see how to use this library.
+
+## Docker Usage
+
+Build container:
+`./build.bash`
+
+Under Linux with and XServer, adjust to your needs:
+`xhost +`
+`./start.bash` 
+`python3 examples/undistort_sample.py`
