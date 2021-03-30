@@ -31,5 +31,7 @@ Build container:
 
 Under Linux with and XServer, adjust to your needs:
 `xhost +`
+
 `./start.bash` 
+
 `python3 examples/undistort_sample.py`
